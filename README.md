@@ -1,6 +1,6 @@
-# Practicing C
+# Practicing CPP
 
-Part of my daily plan for studying C.
+Part of my daily plan for studying CPP.
 
 **Important**
 
