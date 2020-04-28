@@ -1,16 +1,16 @@
 #!/usr/bin/make -f
 
 .DEFAULT_GOAL:=help
-.PHONY: help Array clean
-.SILENT: help Array clean
+.PHONY: help array clean
+.SILENT: help array clean
 
 help:
 	$(call msg_info,"Build targets:")
-	echo "Array       - Build target array"
+	echo "array       - Build target array"
 
-Array:
-	${MAKE} -C Array
+array:
+	${MAKE} -C array
 
 clean:
-	${MAKE} -C Array clean
+	${MAKE} -C array clean
 
