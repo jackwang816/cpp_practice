@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.aspx": "vb",
+        "vector": "cpp"
+    }
+}
